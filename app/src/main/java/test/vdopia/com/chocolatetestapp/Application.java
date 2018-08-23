@@ -42,10 +42,4 @@ public class Application extends MultiDexApplication {
         partnerList.add(LVDOConstants.PARTNER.VUNGLE);
         partnerList.add(LVDOConstants.PARTNER.YOUAPPI);
     }
-
-    @Override
-    protected void attachBaseContext(Context base) {
-        super.attachBaseContext(base);
-        MultiDex.install(this);
-    }
 }
