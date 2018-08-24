@@ -66,7 +66,8 @@ public class MainActivity extends AppCompatActivity implements RewardedAdListene
         Log.d(TAG,"onNewIntent ");
     }
 
-    public void onStartTest(View view) {
+    public void doNothing(View view) {
+        Log.d(TAG,"absolutely nothing happened, besides maybe a button getting pressed.");
     }
 
     @Override
