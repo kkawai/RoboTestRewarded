@@ -1,7 +1,5 @@
 package test.vdopia.com.chocolatetestapp;
 
-import android.content.Context;
-import android.support.multidex.MultiDex;
 import android.support.multidex.MultiDexApplication;
 
 import com.vdopia.ads.lw.LVDOConstants;
