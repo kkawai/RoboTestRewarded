@@ -18,17 +18,6 @@
             </intent-filter>
         </activity>
 
-        <!-- Baidu -->
-        <meta-data
-            android:name="app_license"
-            android:value="3093a807a6d4738e5c2fe812d26d657d"/>
-        <provider
-            android:name="com.duapps.ad.stats.DuAdCacheProvider"
-            android:authorities="${applicationId}.DuAdCacheProvider"
-            android:exported="false">
-        </provider>
-        <!-- End Baidu -->
-
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version"/>
