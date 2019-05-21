@@ -29,15 +29,12 @@ public class Application extends MultiDexApplication {
         partnerList.add(LVDOConstants.PARTNER.ALL);
         partnerList.add(LVDOConstants.PARTNER.CHOCOLATE);
         partnerList.add(LVDOConstants.PARTNER.ADCOLONY);
-        partnerList.add(LVDOConstants.PARTNER.BAIDU);
-        partnerList.add(LVDOConstants.PARTNER.CHARTBOOST);
-        partnerList.add(LVDOConstants.PARTNER.FACEBOOK);
+        partnerList.add(LVDOConstants.PARTNER.AMAZON);
+        partnerList.add(LVDOConstants.PARTNER.CRITEO);
+        //partnerList.add(LVDOConstants.PARTNER.FACEBOOK);
         partnerList.add(LVDOConstants.PARTNER.GOOGLEADMOB);
-        partnerList.add(LVDOConstants.PARTNER.INMOBI);
-        partnerList.add(LVDOConstants.PARTNER.OGURY);
         partnerList.add(LVDOConstants.PARTNER.TAPJOY);
         partnerList.add(LVDOConstants.PARTNER.UNITY);
         partnerList.add(LVDOConstants.PARTNER.VUNGLE);
-        partnerList.add(LVDOConstants.PARTNER.YOUAPPI);
     }
 }
